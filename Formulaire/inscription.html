@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulaire d'inscription pour les utilisateurs.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Formulaire d'inscription</title>
+</head>
+
+<body>
+    <h1>Inscription</h1>
+
+    <form method="POST">
+        <div>
+            <label for="first_name">Prénom :</label>
+            <input type="text" name="first_name" id="first_name" required placeholder="Prénom">
+        </div>
+        <div>
+            <label for="last_name">Nom :</label>
+            <input type="text" name="last_name" id="last_name" required placeholder="Nom">
+        </div>
+        <div>
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" id="email" required placeholder="E-mail">
+        </div>
+        <div>
+            <label for="password">Mot de passe :</label>
+            <input type="password" name="password" id="password" required placeholder="Mot de passe">
+        </div>
+        <div class="field-group">
+            <span class="field-title">Genre :</span>
+            <div class="field-options">
+                <label class="sub field-option"><input type="radio" name="gender" id="man" value="man" required> Homme</label>
+                <label class="sub field-option"><input type="radio" name="gender" id="woman" value="woman"> Femme</label>
+                <label class="sub field-option"><input type="radio" name="gender" id="other" value="other"> Autre</label>
+            </div>
+        </div>
+
+        <div class="field-group">
+            <span class="field-title">Loisirs :</span>
+            <div class="field-options">
+                <label class="sub field-option"><input type="checkbox" name="sport" id="sport"> Sport</label>
+                <label class="sub field-option"><input type="checkbox" name="music" id="music"> Musique</label>
+                <label class="sub field-option"><input type="checkbox" name="reading" id="reading"> Lire</label>
+                <label class="sub field-option"><input type="checkbox" name="coding" id="coding"> Programmation</label>
+                <label class="sub field-option"><input type="checkbox" name="photography" id="photography"> Photographie</label>
+                <label class="sub field-option"><input type="checkbox" name="cooking" id="cooking"> Cuisiner</label>
+                <label class="sub field-option"><input type="checkbox" name="nothing" id="nothing"> Rien</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="country">Pays de résidence :</label>
+            <select name="country" id="country">
+                <option value="france">France</option>
+                <option value="spain">Espagne</option>
+                <option value="italy">Italie</option>
+                <option value="germany">Allemagne</option>
+                <option value="portugal">Portugal</option>
+                <option value="belgium">Belgique</option>
+                <option value="switzerland">Suisse</option>
+                <option value="netherlands">Pays-Bas</option>
+                <option value="uk">Royaume-Uni</option>
+                <option value="ireland">Irlande</option>
+                <option value="sweden">Suède</option>
+                <option value="norway">Norvège</option>
+                <option value="denmark">Danemark</option>
+                <option value="finland">Finlande</option>
+                <option value="greece">Grèce</option>
+                <option value="austria">Autriche</option>
+                <option value="poland">Pologne</option>
+                <option value="hungary">Hongrie</option>
+                <option value="czech-republic">Tchéquie</option>
+            </select>
+        </div>
+        <div>
+            <label for="biography">Biographie :</label>
+            <textarea name="biography" id="biography" required placeholder="Biographie"></textarea>
+        </div>
+        <div class="btn">
+            <input type="submit" name="submit" id="submit" value="Soumettre" class="btn1">
+            <input type="reset" name="reset" id="reset" value="Réinitialiser" class="btn2">
+        </div>
+    </form>
+</body>
+
+</html>
