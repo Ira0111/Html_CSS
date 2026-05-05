@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: url('Image/banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+.photo-profil {
+    width: 120px;  
+    border-radius: 10px;
+}
+
+.icon-sociale {
+    width: 32px;  
+    height: auto;
+    margin-right: 10px;
+}
+.icon a {
+    text-decoration: none;
+}
+img {
+    height: auto;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+    background-color: #ccc;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+main{
+    margin: 8px;
+}
+table {
+    border-collapse: collapse;
+    width: 300px; 
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+td:first-child {
+    font-weight: bold;
+    width: 120px;
+}
+.profil{
+    background-color: #d3ffef;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.competences{
+    background-color: #ffe0d3;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.formations{
+    background-color: #d3dcff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+b {
+    color: #9f9f9f;
+}
+.experiences{
+    background-color: #ffd3ea;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.bonus{
+    background-color: #fbffd3;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
