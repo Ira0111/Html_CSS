@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Starjedi";
+    src: url("font/Starjedi.ttf");
+}
+body{
+    margin: 0px;
+    font-family: "Starjedi", sans-serif;
+}
+.logo {
+    width: 300px;
+    height: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    box-shadow: 5px 0px 12px;
+    background-color: black;
+    padding: 5px;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+main{
+    margin: 16px;
+}
+main article{
+    box-shadow: 3px 2px 5px;
+    padding: 3px;
+    width: 400px;
+    height: auto; 
+    text-align: justify;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 35px;
+}
+.content{
+    border: 1px solid black;
+    padding: 5px;
+
+}
